@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Ringkasan HTML Dasar</title>
+</head>
+<body>
+<!-- Halaman HTML dengan Berbagai Tag Dasar -->
+
+<h1>Belajar Struktur HTML</h1>
+<p>Ini adalah <strong>contoh</strong> penggunaan berbagai <em>tag HTML</em> dasar.</p>
+
+<!-- tag link -->
+<p>Sumber pembelajaran favorit saya adalah 
+<a href="https://www.w3schools.com" target="_blank">W3Schools</a> 
+yang sangat berguna untuk latihan online.</p>
+
+<!-- tag image -->
+<img alt="gambar pemandangan" src="pemandangan.jpg" />
+
+<!-- tag list -->
+<h2>Perlengkapan Sekolah</h2>
+<ol>
+   <li>Pensil</li>
+   <li>Buku Tulis</li>
+   <li>Penghapus</li>
+   <li>Rautan</li>
+   <li>Penggaris</li>
+</ol>
+
+<!-- tag table -->
+<h2>Jadwal Pelajaran</h2>
+<table border="1">
+<tr>
+   <th>Hari</th>
+   <th>Jam</th>
+   <th>Mata Pelajaran</th>
+</tr>
+<tr>
+   <td>Senin</td>
+   <td>08.00 - 09.30</td>
+   <td>Matematika</td>
+</tr>
+<tr>
+   <td>Selasa</td>
+   <td>10.00 - 11.30</td>
+   <td>IPA</td>
+</tr>
+<tr>
+   <td>Rabu</td>
+   <td>09.00 - 10.30</td>
+   <td>Bahasa Inggris</td>
+</tr>
+</table>
+<br/>
+
+<!-- tag form -->
+<h2>Formulir Kontak</h2>
+<form action="kirim.html" method="post">
+
+   Nama Lengkap: <input type="text" name="nama" placeholder="Masukkan nama lengkap" />
+   <br />
+
+   Email: <input type="email" name="email" placeholder="Masukkan email aktif" />
+   <br />
+
+   Jenis Kelamin: 
+   <input type="radio" name="jk" value="pria" /> Pria
+   <input type="radio" name="jk" value="wanita" checked /> Wanita
+   <br />
+
+   Hobi: 
+     <input type="checkbox" name="hobi" value="musik" /> Musik
+     <input type="checkbox" name="hobi" value="olahraga" checked /> Olahraga
+     <input type="checkbox" name="hobi" value="game" /> Game
+   <br />
+
+   Kota Domisili:
+   <select name="kota">
+     <option value="surabaya">Surabaya</option>
+     <option value="yogyakarta" selected>Yogyakarta</option>
+     <option value="makassar">Makassar</option>
+   </select>
+   <br />
+
+   Pesan:
+   <textarea name="pesan" rows="4" cols="30" placeholder="Tulis pesan Anda di sini..."></textarea>
+   <br />
+
+   <input type="submit" value="Kirim">
+   <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
